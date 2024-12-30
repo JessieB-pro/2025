@@ -1,0 +1,91 @@
+/* GENERAL */
+
+#root {
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Poetsen One", sans-serif;
+}
+
+img {
+    max-width: 60%;
+    height: auto;
+}
+
+.heading h1 {
+    color: #0e7cd5;
+    margin-top: 50px;
+    /* margin-bottom: 20px; */
+    text-transform: uppercase;
+}
+
+
+/* --------------------------- */
+
+/* ENIGMES */
+
+#enigmes {
+    width: 100vw;
+    height: 100vh;
+    padding-top: 100px;
+    padding-bottom: 5px;
+    background: linear-gradient(to bottom,
+        #f4f802,
+        rgb(237, 41, 41));
+}
+
+.profile-picture {
+    text-align: center;
+    margin: 0 auto;
+    float: none;
+    width: 200px;
+    max-width: 40%;
+}
+
+#enigmes .title h1 {
+    margin-bottom: 50px;
+    text-transform: none;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+    font-size: 45px;
+}
+
+#enigmes .heading h1 {
+    margin-top: 20px;
+    color: #fff;
+    text-transform: none;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+    font-size: 32px;
+}
+
+#enigmes .heading h3 {
+    margin-top: 15px;
+    font-size: 29px;
+    color: rgb(231, 249, 97);
+    text-shadow: 1px 1px 1px rgb(38, 37, 37);
+    font-style: italic;
+    animation-duration: 2s;
+    animation-delay: 2.5s;
+}
+
+
+/* --------------------------- */
+
+/* ERROR PAGE */
+
+#errorPage {
+    padding-top: 50px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#errorPage .heading h1 {
+    margin: auto;
+    color: black;
+}
+
+
+/* --------------------------- */
