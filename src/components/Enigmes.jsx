@@ -23,6 +23,8 @@ export default function Enigmes() {
         setIndice("Indice 4 : Sous l'eau");
       } else if ((heures === 23 && minutes >=21) || (heures === 23 && minutes < 35)) {
         setIndice("Indice 5 : On coupe le jus");
+      } else if ((heures === 23 && minutes >=36) || (heures === 23 && minutes < 59)) {
+        setIndice("C'est fini !");
       } else {
         setIndice("Aucun indice pour le moment. Revenez à une autre heure !");
       }
