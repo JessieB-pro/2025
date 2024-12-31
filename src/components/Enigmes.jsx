@@ -16,9 +16,9 @@ export default function Enigmes() {
       if ((heures === 20 && minutes >= 0) || (heures === 20 && minutes < 59)) {
         setIndice("Indice 1 : Additionne tous les chiffres de la nouvelle année...dépêche toi avEnt qu'il ne soit trop tard ;)");
       } else if ((heures === 21 && minutes >= 0) || (heures === 21 && minutes < 59)) {
-        setIndice("Indice 2 : L'après-midi est parfait pour un café.");
+        setIndice("Indice 2 : Il n’est pas mouillé mais on l’a mis dedans quand même !");
       } else if ((heures === 22 && minutes >= 0) || (heures === 22 && minutes < 59)) {
-        setIndice("Indice 3 : La nuit porte conseil.");
+        setIndice("Indice 3 : 1234567890QWERTYUIOP…");
       } else {
         setIndice("Aucun indice pour le moment. Revenez à une autre heure !");
       }
