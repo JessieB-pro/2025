@@ -19,9 +19,7 @@ export default function Enigmes() {
         setIndice("Indice 2 : Il n’est pas mouillé mais on l’a mis dedans quand même !");
       } else if ((heures === 22 && minutes >= 0) || (heures === 22 && minutes < 59)) {
         setIndice("Indice 3 : 1234567890QWERTYUIOP…");
-      } else if ((heures === 23 && minutes >=0) || (heures === 23 && minutes < 30)) {
-        setIndice("Indice 4 : Sous l'eau");
-      } else if ((heures === 23 && minutes >=31) || (heures === 23 && minutes < 55)) {
+      } else if ((heures === 23 && minutes >=0) || (heures === 23 && minutes < 55)) {
         setIndice("Indice 5 : On coupe le jus");
       } else if ((heures === 23 && minutes >=56) || (heures === 23 && minutes < 59)) {
         setIndice("C'est fini !");
